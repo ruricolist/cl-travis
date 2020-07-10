@@ -56,7 +56,7 @@ add_to_lisp_rc() {
     echo "$string" >> "$HOME/$rc"
 }
 
-ASDF_URL="https://raw.githubusercontent.com/luismbo/cl-travis/master/deps/asdf.lisp"
+ASDF_URL="https://common-lisp.net/project/asdf/archives/asdf.lisp"
 ASDF_LOCATION="$HOME/asdf"
 
 install_asdf() {
